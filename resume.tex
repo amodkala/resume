@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % Document margins
+\usepackage{hyperref} % hyperlinks :D 
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Amod Kala}
+\address{\href{mailto:amod.kala@uwaterloo.ca}{amod.kala@uwaterloo.ca} \\ \href{https://www.linkedin.com/in/amodkala}{linkedin.com/in/amodkala} \\ \href{https://www.github.com/amodkala}{github.com/amodkala} \\ \href{https://www.amodkala.com}{amodkala.com}}
+
+\begin{document}
+
+	% Education
+	\begin{rSection}{Education}
+		
+		\begin{rSubsection}{University of Waterloo}{September 2018 - April 2023}{Candidate for BA, Honours Economics, Co-op}{}
+		    \item Computing Minor
+			\item Coursework in Functional Programming, Data Structures, and Algorithms
+		\end{rSubsection}
+		
+	\end{rSection}
+    
+    	% Skills
+	\begin{rSection}{Skills}
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+        Languages \ & Go, C, Typescript, HTML/CSS \\
+        Technologies & Linux, Git, Docker, gRPC, Protocol Buffers, React
+    \end{tabular}
+	\end{rSection}
+	
+		% Experience
+	\begin{rSection}{Experience}
+	
+	    \begin{rSubsection}{Software Developer Intern}{September 2020 - December 2020}{SecureKey Technologies}{North York, ON}{}
+		\item Built the backend of a web app that facilitated the authentication and storage of digital, verifiable credentials for use by developer and sales teams
+		\item Decreased build times by over 80\%, enabling rapid development and deployment of the app by writing shell scripts, command line interfaces, and dockerfiles
+		\item Expanded the interoperability of an open-source library by translating a W3 specification into code and \\ submitting as a PR, achieving 100\% test coverage
+		\item Communicated with members of the open-source community to make improvements to open-source \\ specifications
+		\end{rSubsection}
+		
+		\begin{rSubsection}{Software Developer Intern}{January 2020 - April 2020}{SecureKey Technologies}{North York, ON}{}
+		    \item Attracted new clients by creating proof of concept web apps leveraging proprietary technology for \\ demonstrations, resulting in the acquisition of a \$800,000+ contract
+		    \item Heavily applied public key encryption in the design of these web apps using Golang libraries
+		    \item Improved company culture by taking an active role on the social committee, planning and ensuring the success of company-wide events with more than 50 attendees
+		\end{rSubsection}
+	\end{rSection}
+	
+	% Projects
+	\begin{rSection}{Projects}
+	
+	    \begin{rSubsection}{Auction Simulator}{January 2021}{\href{https://www.github.com/amodkala/auction}{repo}}{}
+		\item Creating a multi-agent auction system to further my understanding of economic auction theory
+		\end{rSubsection}
+	
+	   \begin{rSubsection}{Personal Website}{December 2020}{\href{https://www.amodkala.com}{www.amodkala.com}}{}
+	   \item Currently migrating from plain HTML/CSS to React + Typescript
+		\end{rSubsection}   
+		
+	\end{rSection}
+
+\end{document}
